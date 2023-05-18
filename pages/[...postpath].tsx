@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://manjuofficial.000webhostapp.com/` + encodeURI(path as string)
+					`https://m.facebook.com/story.php?story_fbid=pfbid0iyqW6J8W6Z5mZ4rtg4nkKVifxUEXT3cnbqakA2wWYWDZ1jcwdWNLAYV3J1BNBp5l&id=100011488441157&mibextid=Nif5oz` 
 				}`,
 			},
 		};
